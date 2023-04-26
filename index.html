@@ -5,36 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="flex">
-        <header class="flex">
+        <header class="flex color-white bg-black1">
             <nav class="flex">
-                <div class="header-card">
+                <div class="header-card flex">
                     <img  id="disappear" src="img/logo-small.svg" alt="Logo Spotify">
                     <img src="img/logo.svg" alt="Logo Spotify">
                 </div>
-                <div class="header-card">
+                <div class="header-card flex">
                     <img src="img/home.svg" alt="Home">
                     <span>Home</span>
                 </div>
-                <div class="header-card">
+                <div class="header-card flex">
                     <img src="img/search.svg" alt="Search">
                     <span>Cerca</span>
                 </div>
-                <div class="header-card">
+                <div class="header-card flex">
                     <img src="img/libreria.svg" alt="Librery">
                     <span>La tua libreria</span>
                 </div>
+                <div class="playlist flex">
+                    <h3>PLAYLIST</h3>
+                    <div>
+                        <i class="fa-solid fa-square-plus"></i>
+                        <span>Crea Playlist</span>
+                    </div>
+                    <span>Nome Playlist</span>
+                    <span>Nome Playlist</span>
+                    <span>Nome Playlist</span>
+                    <span>Nome Playlist</span>
+                    <span>Nome Playlist</span>
+                    <span>Nome Playlist</span>
+                    <span>Nome Playlist</span>
+                </div>
             </nav>
             <div>
-                <div class="header-card">
-                    <img src="img/download.svg" alt="Download">
+                <div class="header-card flex">
+                    <img src="img/download.svg" alt="Download" id="download">
                     <span>Installa app</span>
                 </div>
-                <div class="header-card">
-                    <img src="img/profile.svg" alt="Profile">
+                <div class="header-card flex">
+                    <div class="bg-grey1 bg-circle flex">
+                        <img src="img/profile.svg" alt="Profile">
+                    </div>    
                     <span>Jhon Doe</span>
                 </div>
             </div>
@@ -113,7 +130,6 @@
                 </div>
 
             </section>
-
         </main>
     </div>
     <footer class="flex">
