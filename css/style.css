@@ -24,6 +24,7 @@ main{
     background-color: blue;
     height: calc(100vh - 80px);
     width:calc(100vw - 50px);
+    overflow-y: auto;
 }
 
 footer{
@@ -67,6 +68,19 @@ section>nav.flex{
 section>nav.flex>div{
     width: 25%;
     text-align: center;
+}
+
+section .container{
+    flex-wrap: wrap;
+}
+
+.main-content{
+    width: 50%;
+    padding: 1rem;
+}
+
+.main-content>img{
+    width: 100%;
 }
 
 /* Footer */
@@ -121,12 +135,17 @@ Footer>div{
     section>nav.flex>div{
         width:calc(100% / 3);
     }
+    
 }
 
 /* Whit screen >= 768px */
 @media screen and (min-width:768px){
     section>nav.flex>div{
         width:calc(100% / 5) ;
+    }
+    .main-content{
+        width: 25%;
+        padding: 1rem;
     }
 
 }
@@ -139,6 +158,10 @@ Footer>div{
     section>nav.flex{
         width: 60%;
         margin: auto;
+    }
+    .main-content{
+        width:calc(100% / 6);
+        padding: 1rem;
     }
     
 
