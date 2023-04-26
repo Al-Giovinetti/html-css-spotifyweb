@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    background-color: red;
+    height: clac(100vh - 80px);
+    width: 50px;
+}
+
+main{
+    background-color: blue;
+    height: calc(100vh - 80px);
+    width:calc(100vw - 50px);
+}
+
+footer{
+    background-color: orangered;
+    height: 80px;
+    width: 100vw;
+}
