@@ -35,6 +35,38 @@ footer{
 /* Header */
 
 
-header nav>div{
+header .header-card{
     background-color: grey;
+    padding: 0.4rem;
 }
+
+header .header-card>:last-child{
+    display: none;
+}
+
+header nav{
+    flex-direction: column;
+}
+
+header img{
+    width: 35px;
+
+}
+
+@media screen and (min-width:576px){
+    header{
+        background-color: yellow;
+        width: 150px;
+    }
+    main{
+        width:calc(100vw - 150px);
+    }
+    header .header-card>:last-child{
+        display: inline;
+        vertical-align: middle;
+    }
+    #disappear{
+        display: none;
+    }
+}
+
