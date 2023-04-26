@@ -53,6 +53,22 @@ header img{
 
 }
 
+/* main */
+
+div.upgrade{
+    text-align: right;
+    margin: 10px;
+}
+
+section>nav.flex{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section>nav.flex>div{
+    width: 25%;
+    text-align: center;
+}
+
 /* Footer */
 
 footer{
@@ -102,5 +118,30 @@ Footer>div{
     #disappear{
         display: none;
     }
+    section>nav.flex>div{
+        width:calc(100% / 3);
+    }
 }
+
+/* Whit screen >= 768px */
+@media screen and (min-width:768px){
+    section>nav.flex>div{
+        width:calc(100% / 5) ;
+    }
+
+}
+
+/* Whit screen >= 992px */
+@media screen and (min-width:992px){
+    section>nav.flex>div{
+        width:calc(100% / 6) ;
+    }
+    section>nav.flex{
+        width: 60%;
+        margin: auto;
+    }
+    
+
+}
+
 
