@@ -134,6 +134,14 @@ Footer>div{
     display: block;
 }
 
+.footer-sx>img{
+    height: 50px;
+}
+
+.footer-sx>div.artist{
+    padding: 0 1rem;
+}
+
 .footer-center>div.flex{
     height: 50%;
     justify-content: center;
