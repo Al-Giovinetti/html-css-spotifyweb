@@ -148,6 +148,25 @@ Footer>div{
     align-items: center
 }
 
+.footer-center i,
+.footer-center span{
+    padding: 0 0.5rem;
+}
+
+.footer-center .time-line{
+    height: 6px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.time-line>div{
+    width: 40%;
+    height: 4px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
 .footer-dx{
     align-items: center;
 }
