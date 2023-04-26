@@ -53,6 +53,27 @@ header img{
 
 }
 
+/* Footer */
+
+footer{
+    justify-content:space-between;
+}
+
+Footer>div{
+    background-color: brown;
+    height: 100%;
+}
+
+.footer-sx{
+    align-items: center;
+}
+
+.footer-sx span,
+.footer-sx i{
+    display: block;
+}
+/* Whit screen >= 576px */
+
 @media screen and (min-width:576px){
     header{
         background-color: yellow;
