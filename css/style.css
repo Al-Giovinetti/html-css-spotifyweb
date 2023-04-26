@@ -62,6 +62,7 @@ footer{
 Footer>div{
     background-color: brown;
     height: 100%;
+    padding: 1rem;
 }
 
 .footer-sx{
@@ -72,6 +73,18 @@ Footer>div{
 .footer-sx i{
     display: block;
 }
+
+.footer-center>div.flex{
+    height: 50%;
+    justify-content: center;
+    align-items: center
+}
+
+.footer-dx{
+    align-items: center;
+}
+
+
 /* Whit screen >= 576px */
 
 @media screen and (min-width:576px){
