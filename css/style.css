@@ -154,7 +154,11 @@ Footer>div{
     padding: 0 0.5rem;
 }
 
-.footer-center .time-line{
+.footer-dx i{
+    padding: 0 0.5rem;
+}
+
+div.time-line{
     height: 6px;
     width: 80%;
     border: 1px solid white;
