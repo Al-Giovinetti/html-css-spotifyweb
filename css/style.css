@@ -203,7 +203,7 @@ section .container{
 
 footer{
     justify-content:space-between;
-    font-size: 0.8rem;
+    color:#7D7F84;
 }
 
 Footer>div{
@@ -212,12 +212,26 @@ Footer>div{
     padding: 1rem;
 }
 
+footer i:hover{
+    color: white;
+}
 
 .footer-sx{
     align-items: center;
 }
 
-.footer-sx span,
+.footer-sx a{
+    font-size: 0.7rem;
+    text-decoration: none;
+    color:#7D7F84;
+}
+
+.footer-sx a:hover{
+    text-decoration:underline;
+    color: white;
+}
+
+.footer-sx a,
 .footer-sx i{
     display: block;
 }
@@ -227,7 +241,7 @@ Footer>div{
 }
 
 .footer-sx>div.artist{
-    padding: 0 1rem;
+    padding: 0 0.5rem;
 }
 
 .footer-center>div.flex{
@@ -252,7 +266,7 @@ Footer>div{
 div.time-line{
     height: 6px;
     width: 80%;
-    border: 1px solid white;
+    border: 1px solid #7D7F84;
     border-radius: 10px;
 }
 
@@ -260,7 +274,15 @@ div.time-line{
     width: 40%;
     height: 4px;
     border-radius: 10px;
-    background-color: aqua;
+    background-color:#ADFF2F;
+    position: relative;
+}
+
+.time-line span{
+    color: white;
+    position: absolute;
+    bottom: 2px;
+    
 }
 
 .footer-dx{
@@ -317,7 +339,7 @@ div.time-line{
     section>nav.flex>div{
         width: calc(100% / 3 - 1rem);
     }
-    .footer-sx span{
+    .footer-sx a{
         display: inline;
     }
     
