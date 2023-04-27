@@ -141,9 +141,14 @@ section>nav.flex{
     gap: 1rem;
     padding-top: 0.5rem;
 }
+
 section>nav.flex>div{
     width: calc(100% / 4 - 1rem);
     text-align: center;
+}
+
+section>nav.flex>div:hover>h3{
+    color: white;
 }
 
 nav.flex .bar{
@@ -152,7 +157,6 @@ nav.flex .bar{
     background-color:#ADFF2F;
     margin: auto;
     margin-top: 0.2rem;
-
 }
 
 section .container{
@@ -165,8 +169,30 @@ section .container{
     padding-top: 0.5rem;
 }
 
-.main-content>img{
+.main-content img{
     width: 100%;
+}
+
+.main-content-cover{
+    position: relative;
+}
+
+.main-content-cover>i{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+    color: white;
+    display: none;
+}
+
+.main-content-cover:hover>i{
+    display: block;
+}
+
+.main-content-cover:hover>img{
+    opacity: 60%;
+
 }
 
 .img-circle{
@@ -314,7 +340,6 @@ div.time-line{
         width:240px ;
 
     }
-
 }
 
 /* Whit screen >= 992px */
