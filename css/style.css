@@ -142,8 +142,17 @@ section>nav.flex{
     padding-top: 0.5rem;
 }
 section>nav.flex>div{
-    width: 25%;
+    width: calc(100% / 4 - 1rem);
     text-align: center;
+}
+
+nav.flex .bar{
+    height: 5px;
+    width: 40%;
+    background-color:#ADFF2F;
+    margin: auto;
+    margin-top: 0.2rem;
+
 }
 
 section .container{
@@ -277,14 +286,11 @@ div.time-line{
         display: block;
     }
     .playlist>span{
-        display: block
-    };
-
-
-    section>nav.flex>div{
-        width:calc(100% / 3);
+        display: block;
     }
-
+    section>nav.flex>div{
+        width: calc(100% / 3 - 1rem);
+    }
     .footer-sx span{
         display: inline;
     }
@@ -294,7 +300,7 @@ div.time-line{
 /* Whit screen >= 768px */
 @media screen and (min-width:768px){
     section>nav.flex>div{
-        width:calc(100% / 5) ;
+        width:calc(100% / 5 - 1rem) ;
     }
     .main-content{
         width: 25%;
@@ -305,7 +311,7 @@ div.time-line{
     }
     .footer-dx,
     .footer-sx{
-        width:230px ;
+        width:240px ;
 
     }
 
@@ -314,10 +320,10 @@ div.time-line{
 /* Whit screen >= 992px */
 @media screen and (min-width:992px){
     section>nav.flex>div{
-        width:calc(100% / 6) ;
+        width:calc(100% / 6 - 1rem) ;
     }
     section>nav.flex{
-        width: 60%;
+        width: 70%;
         margin: auto;
     }
     .main-content{
