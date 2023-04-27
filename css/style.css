@@ -48,6 +48,7 @@ main{
     height: calc(100vh - 80px);
     width:calc(100vw - 50px);
     overflow-y: auto;
+    padding-left: 0.5rem;
 }
 
 footer{
@@ -55,8 +56,25 @@ footer{
     width: 100vw;
 }
 
-/* Header */
+h3{
+    font-size: 0.8rem;
+}
 
+h2{
+    font-size: 0.9rem;
+    padding-bottom: 0.3rem;
+}
+
+h1{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+p{
+    font-size: 0.7rem;
+}
+
+/* Header */
 
 header .header-card{
 margin: 0.6rem 0;
@@ -98,6 +116,7 @@ div.upgrade{
 section>nav.flex{
     justify-content: center;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 section>nav.flex>div{
     width: 25%;
@@ -110,7 +129,8 @@ section .container{
 
 .main-content{
     width: 50%;
-    padding: 1rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
 }
 
 .main-content>img{
@@ -221,7 +241,7 @@ div.time-line{
         margin: 0;
     }
 
-     header .bg-circle>img{
+    header .bg-circle>img{
         margin: auto;
         padding: 0;
     }
@@ -251,7 +271,6 @@ div.time-line{
     }
     .main-content{
         width: 25%;
-        padding: 1rem;
     }
     .footer-sx i{
         display: inline;
@@ -275,7 +294,6 @@ div.time-line{
     }
     .main-content{
         width:calc(100% / 6);
-        padding: 1rem;
     }
     
 
