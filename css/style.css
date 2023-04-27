@@ -34,7 +34,6 @@ header{
     justify-content: space-between;
     overflow-y: auto;
     background-color: black;
-
 }
 
 main{
@@ -108,8 +107,17 @@ header div.playlist{
 
 div.upgrade{
     text-align: right;
-    padding: 10px;
+    padding: 20px;
     background-color: #080B12;
+}
+
+div.upgrade>button{
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 0.5rem;
+    background-color: #080B12;
+    color: white;
+    font-size: 0.7rem;
 }
 
 section{
