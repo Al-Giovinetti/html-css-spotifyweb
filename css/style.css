@@ -251,7 +251,7 @@ footer i:hover{
 }
 
 .footer-center i,
-.footer-center span{
+.footer-center span:not(.dot){
     padding: 0 0.5rem;
 }
 
@@ -270,19 +270,27 @@ div.time-line{
     border-radius: 10px;
 }
 
-.time-line>div{
+div.time-line>div{
     width: 40%;
     height: 4px;
-    border-radius: 10px;
-    background-color:#ADFF2F;
+    border-radius: 10px 0 0 10px;
+    background-color:white;
     position: relative;
 }
 
-.time-line span{
+div.time-line .dot{
     color: white;
     position: absolute;
-    bottom: 2px;
-    
+    right: -3px; bottom: -8px;
+    font-size:larger;
+    display: none;}
+
+    div.time-line>div:hover{
+        background-color:#ADFF2F;
+    }
+
+.time-line:hover .dot{
+    display: block
 }
 
 .footer-dx{
