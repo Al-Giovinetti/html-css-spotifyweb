@@ -21,16 +21,8 @@
 }
 
 /* Colore sfondi */
-.bg-black1{
-    background-color: black;
-}
-
-.bg-grey1{
+.bg-grey{
     background-color: grey;
-}
-
-.bg-grey2{
-    background-color: #282828;
 }
 
 /* Sezioni generali */
@@ -41,37 +33,43 @@ header{
     flex-direction: column;
     justify-content: space-between;
     overflow-y: auto;
+    background-color: black;
+
 }
 
 main{
-    background-color: blue;
     height: calc(100vh - 80px);
     width:calc(100vw - 50px);
     overflow-y: auto;
-    padding-left: 0.5rem;
 }
 
 footer{
     height: 80px;
     width: 100vw;
+    background-color: #282828;
 }
 
 h3{
     font-size: 0.8rem;
+    color:#7D7F84;
 }
 
 h2{
     font-size: 0.9rem;
     padding-bottom: 0.3rem;
+    color: white;
 }
 
 h1{
     font-size: 1.5rem;
     padding-top: 1rem;
+    color: white;
 }
 
 p{
     font-size: 0.7rem;
+    padding-bottom: 0.5rem;
+    color:#7D7F84;
 }
 
 /* Header */
@@ -110,13 +108,20 @@ header div.playlist{
 
 div.upgrade{
     text-align: right;
-    margin: 10px;
+    padding: 10px;
+    background-color: #080B12;
+}
+
+section{
+    padding-left: 0.5rem;
+    background-color:#141922;
 }
 
 section>nav.flex{
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
+    padding-top: 0.5rem;
 }
 section>nav.flex>div{
     width: 25%;
@@ -135,6 +140,10 @@ section .container{
 
 .main-content>img{
     width: 100%;
+}
+
+.img-circle{
+    border-radius: 50%;
 }
 
 /* Footer */
