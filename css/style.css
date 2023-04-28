@@ -300,15 +300,13 @@ div.time-line>div{
     height: 4px;
     border-radius: 10px 0 0 10px;
     background-color:white;
-    position: relative;
+    justify-content: flex-end;
+    align-content: center;
 }
 
 div.time-line .dot{
     color: white;
-    position: absolute;
-    right: -3px; bottom: -8px;
     font-size:larger;
-    display: none;
 }
 
 div.time-line>div:hover{
