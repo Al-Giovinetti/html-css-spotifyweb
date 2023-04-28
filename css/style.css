@@ -301,15 +301,18 @@ div.time-line>div{
     border-radius: 10px 0 0 10px;
     background-color:white;
     justify-content: flex-end;
-    align-content: center;
+    align-items: center;
 }
 
 div.time-line .dot{
-    color: white;
-    font-size:larger;
+    background-color: white;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    display: none;
 }
 
-div.time-line>div:hover{
+div.time-line:hover>div{
     background-color:#ADFF2F;
 }
 
