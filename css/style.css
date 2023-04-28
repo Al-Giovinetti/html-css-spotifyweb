@@ -338,12 +338,16 @@ div.time-line>div:hover{
     header .header-card{
         margin: 0.6rem;
     }
+    .header-card>span{
+    align-self: center;
+    }
     .disappear{
         display: inline-block
     }
     header img{
         margin:0;
-        padding-right: 0.5rem;
+        margin-right: 0.5rem;
+        vertical-align: middle;
     }
     header img.disappear{
         width: 80%;
@@ -355,12 +359,9 @@ div.time-line>div:hover{
         border-top: 1px solid white;
         padding-top: 0.5rem;
     }
-    header img#download{
-        width: 20px;
-    }
 
     .bg-circle{
-        margin: 0;
+        margin: 0 0.5rem 0 0;
     }
 
     header .bg-circle>img{
